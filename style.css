@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #2a374d;
+    color: white;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+#header-logo {
+    font-weight: 700;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
