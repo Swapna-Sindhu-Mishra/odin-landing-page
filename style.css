@@ -1,6 +1,8 @@
 body {
     font-family: sans-serif;
     font-size: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .header {
@@ -52,6 +54,7 @@ a{
     background-color: rgb(76, 121, 226);
     color: white;
     border-radius: 5px;
+    border-color: transparent;
 }
 
 .Info {
@@ -78,6 +81,45 @@ a{
 }
 
 .quote {
+    padding: 50px;
+    background-color: lightgray;
+}
+
+#saying {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+#sayer {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 600;
+}
+
+.signup {
+    display: flex;
+    background-color: rgb(76, 121, 226);
+    padding: 20px;
+    margin: 50px 50px;
+    justify-content: space-between;
+}
+
+.signup-text, #signup {
+    padding: 0 30px;
+}
+
+#action {
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.footer {
+    background-color: black;
+    padding: 15px;
+    color: white;
     display: flex;
     justify-content: center;
 }
