@@ -48,7 +48,36 @@ a{
     margin: 10px 0;
 }
 
-#signup {
-    background-color: blue;
+#signup-button {
+    background-color: rgb(76, 121, 226);
     color: white;
+    border-radius: 5px;
+}
+
+.Info {
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+    justify-content: center;
+    padding: 20px;
+}
+
+.cards {
+    display: flex;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.imgtext{
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
 }
