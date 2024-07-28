@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    font-size: 12px;
+    font-size: 18px;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -8,15 +8,15 @@ body {
 .header {
     display: flex;
     align-items: center;
-    background-color: #2a374d;
+    background-color: #1f2937;
     color: white;
     justify-content: space-between;
     padding: 0 50px;
 }
 
 #header-logo {
-    font-weight: 700;
-    font-size: 15px;
+    font-weight: 600;
+    font-size: 24px;
 }
 
 ul {
@@ -34,7 +34,7 @@ a{
 .website {
     display: flex;
     align-items: center;
-    background-color: #2a374d;
+    background-color: #1f2937;
     color: white;
     justify-content: space-between;
     padding: 50px 50px;
@@ -42,8 +42,9 @@ a{
 }
 
 #awesome {
-    font-weight: 700;
-    font-size: 25px;
+    font-weight: 800;
+    font-size: 48px;
+    color: #F9FAF8;
 }
 
 #subtext{
@@ -51,7 +52,7 @@ a{
 }
 
 #signup-button {
-    background-color: rgb(76, 121, 226);
+    background-color: #3882F6;
     color: white;
     border-radius: 5px;
     border-color: transparent;
@@ -63,6 +64,10 @@ a{
     font-weight: 700;
     justify-content: center;
     padding: 20px;
+}
+
+img {
+    max-width: 300px;
 }
 
 .cards {
@@ -82,14 +87,14 @@ a{
 
 .quote {
     padding: 50px;
-    background-color: lightgray;
+    background-color: #E5E7EB;
 }
 
 #saying {
     display: flex;
     justify-content: center;
     font-style: italic;
-    font-size: 15px;
+    font-size: 36px;
     font-weight: 200;
 }
 
@@ -101,13 +106,13 @@ a{
 
 .signup {
     display: flex;
-    background-color: rgb(76, 121, 226);
+    background-color: #3882F6;
     padding: 20px;
     margin: 50px 50px;
     justify-content: space-between;
 }
 
-.signup-text, #signup {
+.signup-text {
     padding: 0 30px;
 }
 
@@ -117,8 +122,8 @@ a{
 }
 
 .footer {
-    background-color: black;
-    padding: 15px;
+    background-color: #1f2937;
+    padding: 30px;
     color: white;
     display: flex;
     justify-content: center;
