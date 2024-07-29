@@ -70,8 +70,11 @@ img {
     max-width: 300px;
 }
 
+
 .cards {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .img {
@@ -108,7 +111,7 @@ img {
     display: flex;
     background-color: #3882F6;
     padding: 20px;
-    margin: 50px 50px;
+    margin: 50px 100px;
     justify-content: space-between;
 }
 
